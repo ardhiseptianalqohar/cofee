@@ -155,8 +155,8 @@ body {
 }
 
 .shopping-cart h3 {
-font-size: 1.6rem;
-padding-bottom: 0.5rem;
+  font-size: 1.6rem;
+  padding-bottom: 0.5rem;
 }
 
 .shopping-cart .item-price {
@@ -506,6 +506,14 @@ footer .credit a {
   border: 1px solid #666;
   width: 80%;
   animation: animateModal 0.5s;
+  border-radius: 1rem;
+}
+
+.modal a span {
+  font-weight: bold;
+  margin-top: 0.3rem;
+  font-size: 1.4rem;
+  color: #fff;
 }
 
 /* Modal Animation */
@@ -535,6 +543,7 @@ footer .credit a {
   height: 20rem;
   margin-right: 2rem;
   margin-bottom: 2rem;
+  border-radius: 1rem;
 }
 
 .modal-content p {
@@ -551,6 +560,7 @@ footer .credit a {
   color: #fff;
   margin-top: 1rem;
   padding: 1rem 1.6rem;
+  border-radius: 1rem;
 }
 /* Item Detail End */
 
