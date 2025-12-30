@@ -350,19 +350,16 @@ body {
 }
 
 .products .product-icons a {
+  color: aliceblue;
   width: 2rem;
   height: 2rem;
-  color: #fff;
   margin: 0.3rem;
-  /* border: 1px solid #666;
-  border-radius: 100%; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .products .product-icons a:hover {
-  background-color: var(--primary);
-  border: 1px solid var(--primary);
+  color: var(--primary);
 }
 
 .products .product-image img {
